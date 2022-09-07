@@ -534,8 +534,8 @@ const Home = (props: HomeProps) => {
                       style={{ fontWeight: "bold" }}
                     >
                       {isWhitelistUser && discountPrice
-                        ? `◎ ${formatNumber.asNumber(discountPrice)}`
-                        : `◎ ${formatNumber.asNumber(
+                        ? `$MILK ${formatNumber.asNumber(discountPrice)}`
+                        : `$MILK ${formatNumber.asNumber(
                             candyMachine.state.price
                           )}`}
                     </Typography>
